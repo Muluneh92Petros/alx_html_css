@@ -25,6 +25,8 @@
         article  {
             flex-direction: row;
             flex: 2;
+            color: Blue;
+            background-color: lightblue;
         }
          aside {
             flex: 1;
@@ -53,14 +55,13 @@
             }
     </style>
 </head>
-<body>
-<p> class="works_on_smartphone".</p>
+<body class="works_on_smartphone>
     <header>
         <h1>Your Name</h1>
         <p>Your brief tagline or professional statement goes here.</p>
     </header>
         <main>
-    <article class="project">
+    <article class="logo">
             <h3>Project Title 1</h3>
             <p>Description of your project goes here. Highlight its features and technologies used.</p>
             <a href="https://link-to-your-project.com" target="_blank">View Project</a>

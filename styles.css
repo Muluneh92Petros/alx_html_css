@@ -1,1 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="base.css" rel="stylesheet">
+<link href="styles.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Your Name - Personal Portfolio</title>
+    <style>
+        body {
+            overflow-y: auto;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+       main{ 
+           flex: auto; 
+        }
 
+        article  {
+            flex-direction: row;
+            flex: 2;
+        }
+         aside {
+            flex: 1;
+        }
+        section {
+            padding: 20px;
+        }
+        .project {
+            border: 1px solid #ccc;
+            margin: 10px 0;
+            padding: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Your brief tagline or professional statement goes here.</p>
+    </header>
+        <main>
+    <article class="project">
+            <h3>Project Title 1</h3>
+            <p>Description of your project goes here. Highlight its features and technologies used.</p>
+            <a href="https://link-to-your-project.com" target="_blank">View Project</a>
+      </article>
+        <aside class="project">
+            <h3>Project Title 2</h3>
+            <p>Description of your project goes here. Highlight its features and technologies used.</p>
+            <a href="https://link-to-your-project.com" target="_blank">View Project</a>
+        </aside>
+        <!-- Add more projects as needed -->
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
+</body>
+</html>

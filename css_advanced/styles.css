@@ -29,6 +29,27 @@ header li {
     font-size: 1.2em; /* Adjust font size */
 }
 
+/* Quote section styles */
+.quote-section {
+    background-color: #f9f9f9; /* Light background color */
+    border-left: 5px solid #4CAF50; /* Left border for quote style */
+    padding: 20px; /* Padding inside the quote section */
+    margin: 20px 0; /* Margin above and below the quote */
+    font-style: italic; /* Italicize quote text */
+    color: #555; /* Darker text for contrast */
+}
+
+.quote-section h3 {
+    font-size: 1.5em; /* Size for the quote author */
+    text-align: right; /* Align author text to the right */
+    margin-top: 10px; /* Space above the author name */
+}
+
+.quote-section p {
+    font-size: 1.2em; /* Size for the quote text */
+    text-align: left; /* Align quote text to the left */
+}
+
 /* Logo Styles */
 .logo {
     font-size: 2em; /* Adjust size for logo */

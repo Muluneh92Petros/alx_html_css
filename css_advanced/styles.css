@@ -72,6 +72,38 @@ header li {
     color: #555;
     padding: 20px;
 }
+/* Common styles for video list */
+.video-list {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-between; /* Space items evenly */
+    margin: 20px 0; /* Margin around the video list */
+}
+
+.video-item {
+    background-color: #f9f9f9; /* Light background for each video item */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    flex: 0 1 30%; /* Flex-basis to create a responsive grid (3 items per row) */
+    margin: 10px; /* Space between video items */
+    padding: 10px; /* Padding inside each item */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+    transition: transform 0.2s; /* Smooth scaling on hover */
+}
+
+.video-item:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+.video-item h4 {
+    font-size: 1.2em; /* Title size */
+    margin: 10px 0; /* Margin around title */
+}
+
+.video-item p {
+    font-size: 0.9em; /* Description size */
+    color: #555; /* Dark text for description */
+}
 
 /* Logo Styles */
 .logo {

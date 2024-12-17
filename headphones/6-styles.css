@@ -1,0 +1,46 @@
+.our-results {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.results {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.result {
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pentagon {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 86.6px solid #ff4081; /* Pentagon color */
+    margin: 0 auto 10px; /* Center the pentagon */
+}
+
+.result-title {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.result-description {
+    color: #666;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .results {
+        flex-direction: column;
+        align-items: center;
+    }
+}

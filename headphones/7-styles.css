@@ -1,0 +1,44 @@
+.service {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0.8; 
+}
+
+.service:hover {
+    transform: scale(1.05) rotate(3deg);
+    opacity: 1; 
+}
+
+.result {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0.8; 
+}
+
+.result:hover {
+    transform: translateY(-10px);
+    opacity: 1; 
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.service, .result {
+    animation: fadeIn 0.5s forwards;
+}
+
+.service:nth-child(1), .result:nth-child(1) {
+    animation-delay: 0.1s;
+}
+.service:nth-child(2), .result:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.service:nth-child(3), .result:nth-child(3) {
+    animation-delay: 0.3s;
+}
